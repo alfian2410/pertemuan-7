@@ -13,14 +13,16 @@
             <section class="w-100 p-4 d-flex justify-content-center align-items-center pb-4" >
                 <form action="./backend/login.php" method="post" style="width: 22rem;" >
                     <div class="form-outline mb-4" >            
-                        <input type="email" name="email" placeholder="masukkan email anda" class="form-control" >
+                        <input type="email" name="email" placeholder="masukkan email anda" class="form-control" required>
                     </div>
                     <div class="form-outline mb-4" >
-                        <input type="password" name="password" placeholder="masukkan password anda" class="form-control" >
+                        <input type="password" name="password" placeholder="masukkan password anda" class="form-control" required>
                     </div>
                     <div class="form-outline mb-4" >
                         <input type="submit" value="login" name="submit" class="btn btn-primary" >
+                        <a href="register.php" class = "btn btn-success">register</a>
                     </div>
+
                 </form>
             </section>
     </section>
